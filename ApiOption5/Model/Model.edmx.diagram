@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="30e8013892424951b3eab4db5f6642f4" Name="Diagram1">
+        <EntityTypeShape EntityType="Option5Model.Agent" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Option5Model.AgentType" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Option5Model.DirectorName" Width="1.5" PointX="0.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Option5Model.Employees" Width="1.5" PointX="10.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Option5Model.Manager" Width="1.5" PointX="3" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Option5Model.Materials" Width="1.5" PointX="8" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Option5Model.MaterialsSupplier" Width="1.5" PointX="10.25" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Option5Model.MaterialsType" Width="1.5" PointX="5.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Option5Model.PointOfSales" Width="1.5" PointX="0.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="Option5Model.Priority" Width="1.5" PointX="0.75" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Option5Model.Role" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Option5Model.Supplier" Width="1.5" PointX="8" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Option5Model.SupplierType" Width="1.5" PointX="5.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Option5Model.sysdiagrams" Width="1.5" PointX="10.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Option5Model.Unit" Width="1.5" PointX="5.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Option5Model.User" Width="1.5" PointX="3" PointY="12" IsExpanded="true" />
+        <AssociationConnector Association="Option5Model.FK_Agent_AgentType" ManuallyRouted="false" />
+        <AssociationConnector Association="Option5Model.FK_Agent_DirectorName" ManuallyRouted="false" />
+        <AssociationConnector Association="Option5Model.FK_Agent_PointOfSales" ManuallyRouted="false" />
+        <AssociationConnector Association="Option5Model.FK_Agent_Priority" ManuallyRouted="false" />
+        <AssociationConnector Association="Option5Model.FK_Agent_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="Option5Model.FK_Manager_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="Option5Model.FK_Materials_MaterialsType" ManuallyRouted="false" />
+        <AssociationConnector Association="Option5Model.FK_Materials_Unit" ManuallyRouted="false" />
+        <AssociationConnector Association="Option5Model.FK_MaterialsSupplier_Materials" ManuallyRouted="false" />
+        <AssociationConnector Association="Option5Model.FK_MaterialsSupplier_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="Option5Model.FK_User_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="Option5Model.FK_Supplier_SupplierType" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

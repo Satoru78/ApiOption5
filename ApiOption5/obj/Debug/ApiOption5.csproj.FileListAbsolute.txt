@@ -1,0 +1,2 @@
+C:\Users\Magomed\source\repos\ApiOption5\ApiOption5\obj\Debug\ApiOption5.csproj.AssemblyReference.cache
+C:\Users\Magomed\source\repos\ApiOption5\ApiOption5\obj\Debug\ApiOption5.csproj.CoreCompileInputs.cache
